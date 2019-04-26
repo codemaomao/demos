@@ -1,0 +1,299 @@
+#id_first{
+	width: 100%;
+	margin: 0 auto;
+}
+#id_zhjione{
+	width: 100%;
+	margin: auto;
+}
+#id_zh_yi{
+	height: 38px;
+	background-color: #f6f5f3;
+}
+#text_zhong_san{
+	height: 54px;
+}
+#id_west_wue{
+	height: 60px;
+	background-color: #459df5;
+}
+#img_first{
+	width:1200px;
+	margin: 0 auto;
+}
+#img1_3{
+	height: 60px;
+	
+}
+#alrty_tay{
+	color: #999999;
+	text-decoration: none;
+	line-height: 54px;
+	font-family: "microsoft yahei";
+}
+#zhan_fu{
+	color: #999999;
+	text-decoration: none;
+	line-height: 54px;
+}
+#zhan_wu{
+	color: #333333;
+	text-decoration: none;
+	line-height: 54px;
+	font-family: "microsoft yahei";
+}
+#fei_zhan_one{
+	background-color: #66b3ff;
+	color: #ff6666;
+	font-size: 18px;
+	border: none;
+	width: 120px;
+	height: 60px;
+	font-family: "microsoft yahei";
+}
+#div_opuet{
+	width: 1200px;
+	height: 326px;
+	margin-top: 52px;
+	margin-left: 360px;
+	border-bottom: #CCCCCC 1px solid;
+	margin-bottom: 52px;
+	margin: auto;
+}
+.class_supt{
+	width: 100%px;
+	margin-top: 52px;
+}
+#img_one_tou{
+	margin-left: 5px;
+}
+#img_one_wei{
+	margin-left: 3px;
+}
+#span_biao{
+	margin-right: 5px;
+	color: #333333;
+	font-size: 20px;
+	font-family: "microsoft yahei";
+	font-weight: bold;
+}
+#id_little_tu{
+	margin-left: 6px;
+	color: #FF6666;
+	text-decoration: none;
+}
+#input_xuan{
+	font-size: 14px;
+	color: #FFFFFF;
+	width: 82px;
+	height: 27px;
+	background-color: #459DF5;
+	border: none;
+	font-family: "microsoft yahei";
+	margin-left: 312px;
+	position: relative;
+	top:5px;
+}
+#span_di_zhi{
+	margin-top: 14px;
+	margin-bottom: 17px;
+}
+#img_big{
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 52px;
+}
+#img_little{
+	margin-bottom: 3px;
+}
+#id_zhong_tou{
+	float: left;
+	
+}
+#div_jin{
+	width: 578px;
+	height: 220px;
+	border: #459DF5 1px solid;
+	float: right;
+	
+}
+#div_fang{
+	width: 578;
+	height: 52px;
+	background-color: #f5f5f5;
+}
+#id_tou—_shi{
+	width: 578px;
+	height: 70px;
+	border-bottom: #F5F5F5 1px solid;
+}
+#po_ab_aa{
+	margin-top: 18px;
+	float: left;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #333333;
+	margin-left: 56px;
+}
+#po_ab_bb{
+	margin-top: 18px;
+	float: left;
+	font: "microsoft yahei";
+	font-size: 14px;
+	color: #333333;
+	margin-left: 79px;
+}
+#po_ab_cc{
+	margin-top: 18px;
+	float: left;
+	font: "microsoft yahei";
+	font-size: 14px;
+	color: #333333;
+	margin-left: 79px;
+}
+#po_ab_dd{
+	margin-top: 18px;
+	float: left;
+	font: "microsoft yahei";
+	font-size: 14px;
+	color: #333333;
+	margin-left: 63px;
+}
+#po_ab_ee{
+	margin-top: 18px;
+	float: left;
+	font: "microsoft yahei";
+	font-size: 14px;
+	color: #333333;
+	margin-left: 63px; 
+}
+#post_yang{
+	margin-top: 28px;
+	float: left;
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	margin-left: 40px;
+	
+}
+#post_rong{
+	margin-top: 28px;
+	float: left;
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	margin-left: 63px;
+}
+#post_xin{
+	margin-top: 28px;
+	float: left;
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	margin-left: 79px;
+}
+#post_shuo{
+	margin-top: 28px;
+	font-size: 14px;
+	float: left;
+	font-family: "microsoft yahei";
+	margin-left: 71px;
+}
+#post_wesrt{
+	margin-top: 28px;
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	float: left;
+}
+#input_opstr{
+	
+	width: 82px;
+	height: 30px;
+	background-color: #459DF5;
+	border: none;
+	color: #F5F5F5;
+	margin-left: 49px;
+}
+#div_westpo{
+	width: 336px;
+	height: 30px;
+	margin: auto;
+	margin-top: 28px;
+	margin-bottom: 50px;
+}
+#div_opser{
+	width: 72px;
+	height: 30px;
+	border: #333333 1px solid;
+	float: left;
+}
+#span_ahte_we{
+	width: 60px;
+	height: 28px;
+	font-size: 14px;
+	color: #333333;
+	line-height: 31px;
+    padding-left: 16px;
+}
+#used_port{
+	border: #333333 1px solid;
+	background-color: white;
+	padding: 6px 5px 6px 5px;
+	margin-left: 6px;
+}
+#div3_2{
+	width: 46px;
+	height: 30px;
+}
+#in_one_yi{
+	width: 30px;
+	height: 30px;
+	background-color: #1da3e5;
+	font-size: 12px;
+	border: #1DA3E5 1px solid;
+	color: white;
+	margin-left: 6px;
+}
+#in_tow_er{
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	font-size: 12px;
+	border: #333333 1px solid;
+	margin-left: 6px;
+}
+#in_three_san{
+	width: 46px;
+	height: 30px;
+	background-color: white;
+	font-size: 12px;
+	border: #333333 1px solid;
+	margin-left: 6px;
+}
+#in_four_si{
+	width: 46px;
+	height: 30px;
+	background-color: white;
+	font-size: 12px;
+	border: #333333 1px solid;
+	margin-left: 6px;
+}
+#id_weidi{
+	width: 100%;
+	height: 80px;
+	background-color: #424242;
+	margin: auto;
+	clear: both;
+}#id_weidi li{
+	color: #999999;
+	float: left;
+	margin-left: 40px;
+}
+#di_wester{
+	padding-top: 20px;
+	width: 700px;
+	margin: 0 auto;
+}
+#wei_about{
+	color: #999999;
+	padding-top: 8px;
+	text-align: center;
+	clear: both;
+}
