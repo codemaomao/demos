@@ -2,14 +2,21 @@
 <html>
 <head>
 	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="css/index.css"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/indexPhone.css" />
+	<link rel="stylesheet" href="css/jquery.bxslider.css" />
 	<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
 	<script type="text/javascript" src="js/slider.js"></script>
+	<script src="js/common.js"></script>
+
+
+<script type="text/javascript" src="js/jquery.bxslider.js" ></script>
 </head>
 <body>
-	<div class="containerWrap">
+	<div class="containerWrap pcBox">
 		<div class="logo">
 			<div class="logo_l">
 				<img src="img/科博会首页订版_03.gif" style="padding-top: 5px;"/>
@@ -27,15 +34,15 @@
 		<div id="containerBox">
 			<div class="dhl">
 				<ul class="ul1">
-					<li style="padding-left: 44px; padding-right: 130px;"><a href="#">注册报名</a></li>
-					<li style="padding-right: 84px;"><a href="#">亮点活动</a></li>
-					<li style="padding-right: 84px;"><a href="#">企业展示/品牌合作</a></li>
-					<li style="padding-right: 132px;"><a href="#">交通指南</a></li>
-					<li style="padding-right: 132px;"><a href="#">展会服务</a></li>
-					<li style="padding-right: 44px;"><a href="#">关于我们</a></li>
+					<li style="padding-left: 44px; padding-right: 130px;"><a href="#zhuce">注册报名</a></li>
+					<li style="padding-right: 84px;"><a href="#liangdian">亮点活动</a></li>
+					<li style="padding-right: 84px;"><a href="#qiye">企业展示/品牌合作</a></li>
+					<li style="padding-right: 132px;"><a href="#zhagyi">交通指南</a></li>
+					<li style="padding-right: 132px;"><a href="#zhanhui">展会服务</a></li>
+					<li style="padding-right: 44px;"><a href="#about">关于我们</a></li>
 				</ul>
 			</div>
-			<div class="zhuce">
+			<div class="zhuce" name="zhuce">
 				<img src="img/bianshi_03.gif"  style="float: left;"/>
 				<p class="wenben_1">注册报名</p>
 				<img src="img/bianshi_05.gif" style="float: left;" />
@@ -114,7 +121,7 @@
 					</div>
 
 				</div>
-				<div class="liangdian">
+				<div class="liangdian" id="liangdian">
 					<p class="zhagyi">
 						<img src="img/bianshi_03.gif"/>
 						&nbsp;&nbsp;亮点活动&nbsp;&nbsp;
@@ -134,7 +141,7 @@
 						<img id="diansan" src="img/科博会首页订版_49.gif"/>
 					</p>
 				</div>
-				<div class="qiye">
+				<div class="qiye" id="qiye">
 					<p class="zhagyi">
 						<img src="img/bianshi_03.gif"/>
 						&nbsp;&nbsp;企业展示/品牌合作&nbsp;&nbsp;
@@ -160,7 +167,7 @@
 
 			
 		</div>
-		<p class="zhagyi">
+		<p class="zhagyi" id="zhagyi">
 			<img src="img/bianshi_03.gif">
 			&nbsp;&nbsp;交通指南&nbsp;&nbsp;
 			<img src="img/bianshi_05.gif">
@@ -181,7 +188,7 @@
 		<div class="zhuce2">
 
 
-			<div class="zhanhui">
+			<div class="zhanhui" id="zhanhui">
 				<p class="zhagyi">
 					<img src="img/bianshi_03.gif"/>
 					展会服务
@@ -192,7 +199,7 @@
 					<img style="margin-right: 0px;" src="img/科博会首页订版_61.gif"/>
 				</p>
 			</div>
-			<div class="xia">
+			<div class="xia" id="about">
 				<div style="clear: both;"></div>
 				<p class="zhagyi" style="position: relative;top: 20px;">
 					<img src="img/bianshi_03.gif"/>
@@ -245,35 +252,341 @@
 			<p>Copyright&nbsp;2008-2014&nbsp;SUNGOAL.ALL&nbsp;Rights&nbsp;reserved&nbsp;版权所有：h展会股份有限公司&nbsp;鄂ICP备12012829号-10</p>
 		</div>
 	</div>
+	<div class="phoneBox">
+		<div class="head_box">
+			<h1><i class="go_black"></i>展会介绍</h1>
+		
+			<div class="head_img">
+		      <div class="slide"><img src="img/index_top.png" /></div>					
+			  <div class="slide"><img src="img/index_top.png" /></div>				
+			</div>
+			<div class="nav">
+					<span class="active">
+						<a href="javascript:;">注册报名</a>
+					</span>
+					<span>
+						<a href="javascript:;">亮点活动</a>
+					</span>					
+					<span>
+						<a href="javascript:;">企业展示/品牌合作</a>
+					</span>					
+					<span>
+						<a href="javascript:;">交通指南</a>
+					</span>	
+					<span>
+						<a href="javascript:;">交通指南</a>
+					</span>						
+			</div>
+		</div>
+		<div class="index_item">
+			<div class="tip">
+				<p>注册报名</p>
+			</div>
+			<div class="register_box">
+				<form class="register_body">
+					<p class="title">注册报名</p>
+					<div class="index_unit">
+						<div class="left">身份:</div>
+						<div class="right">
+							<span>展商</span><span>专业观众</span><span>普通观众</span><span>媒体</span><span>科协</span><span>邮政</span><span>科技馆</span><span>其他</span>
+						</div>
+					</div>
+					<div class="index_unit">
+						<div class="left">专业:</div>
+						<div class="right">
+							<span>组委会</span><span>受邀观众</span><span>受邀媒体</span><span>合作酒店</span>
+						</div>
+					</div>	
+					<div class="index_once">
+						<div class="left">
+							姓名：
+						</div>
+						<div class="right">
+							<input type="text" required="required"/>
+						</div>
+					</div>
+					<div class="index_once">
+						<div class="left">
+							性别：
+						</div>
+						<div class="right">
+							<input type="text" required="required" />
+						</div>
+					</div>	
+					<div class="index_once">
+						<div class="left">
+							手机号：
+						</div>
+						<div class="right">
+							<input type="tel" required="required" />
+						</div>
+					</div>	
+					<div class="index_once">
+						<div class="left">
+							验证码：
+						</div>
+						<div class="right">
+							<input  class="code" type="text" required="required" />
+							<span class="send_code">发送验证码</span>
+						</div>
+					</div>	
+					<div class="index_once">
+						<div class="left">
+							企业名称：
+						</div>
+						<div class="right">
+							<input type="text" required="required" />
+						</div>
+					</div>
+					<div class="index_once">
+						<div class="left">
+							职位：
+						</div>
+						<div class="right">
+							<input type="text" required="required" />
+						</div>
+					</div>		
+					<div class="sub">
+						<input type="submit" class="submit_button" value="确认提交"></input>
+					</div>
+				</form>
+			</div>
+		</div>
+<!--亮点活动-->		
+		<div class="index_item">
+			<div class="tip">
+				<p>亮点活动</p>
+			</div>	
+			<div class="ld_box">
+				<a href="javascript:;">
+					<img src="img/index_center1.png" />
+					<p class="ld_title">
+						院士专家报告会
+					</p>
+				</a>
+				<a href="javascript:;">
+					<img src="img/index_center1.png" />
+					<p class="ld_title">
+						院士专家报告会
+					</p>
+				</a>	
+				<a href="javascript:;">
+					<img src="img/index_center1.png" />
+					<p class="ld_title">
+						院士专家报告会
+					</p>
+				</a>
+				<a href="javascript:;">
+					<img src="img/index_center1.png" />
+					<p class="ld_title">
+						院士专家报告会
+					</p>
+				</a>	
+				<a href="javascript:;">
+					<img src="img/index_center1.png" />
+					<p class="ld_title">
+						院士专家报告会
+					</p>
+				</a>
+				<a href="javascript:;">
+					<img src="img/index_center1.png" />
+					<p class="ld_title">
+						院士专家报告会
+					</p>
+				</a>					
+			</div>
+		</div>
+<!--企业展示/品牌合作-->	
+		<div class="index_item">
+			<div class="tip_two">
+				<p>企业展示/品牌合作</p>
+			</div>	
+			<div class="qyzs_box">
+				<div class="slider_box">
+			      <div class="slide"><img src="img/qyzs.png">
+			      	<p class="quzs_title">阿里巴巴1</p>
+			      </div>
+			      <div class="slide"><img src="img/qyzs.png">
+			      	<p class="quzs_title">阿里巴巴2</p>
+			      </div>
+			      <div class="slide"><img src="img/qyzs.png">
+			      	<p class="quzs_title">阿里巴巴3</p>
+			      </div>
+			      <div class="slide"><img src="img/qyzs.png">
+			      	<p class="quzs_title">阿里巴巴4</p>
+			      </div>
+			      <div class="slide"><img src="img/qyzs.png">
+			      	<p class="quzs_title">阿里巴巴5</p>
+			      </div>
+			      <div class="slide"><img src="img/qyzs.png">
+			      	<p class="quzs_title">阿里巴巴6</p>
+			      </div>			      
+			    </div>  
+			</div>
+		</div>	
+<!--展会服务-->		
+		<div class="index_item">
+			<div class="tip">
+				<p style="padding-top: 40px;">展会服务</p>
+			</div>
+			<div class="zhfu_box">
+				<div class="zhfu_img">
+					<div class="show_img">
+						<img src="img/zhfu.png" />
+					</div>
+					<span>周边景点</span>
+				</div>
+				<div class="zhfu_img">
+					<div class="show_img">
+						<img src="img/zhfu.png" />
+					</div>
+					<span>酒店预订</span>
+				</div>				
+			</div>
+			<div class="mapbox">
+				<div class="map_img">
+					<img src="img/map.png" />
+				</div>
+				<div class="map_show">
+				<p>地址：1、从南京、马鞍山方向经芜马高速到芜湖南出口，上九华路向北直行至九华南路与大工山路交口芜湖国际会展中心3、从武汉、安庆方向经马芜铜高速到芜湖南出口，沿芜南路过马饮十字路口沿芜南路至九华南路500米即到4、从上海、杭州方向上芜宣高速经马芜铜高速到芜湖南出口，沿芜南路过马饮十字路向九华南路500米即到。</p>
+				</div>
+				<p class="zhinan">
+					<span>交通指南</span>
+				</p>
+			</div>
+		</div>	
+<!--关于我们-->		
+		<div class="index_item">
+			<div class="tip">
+				<p>关于我们</p>
+			</div>
+			<div class="about_box">
+				<div class="about_mark">
+					<span class="active">免责条款</span>
+					<span>展会介绍</span>
+				</div>
+				<div class="clear"></div>
+				<div class="about_show">
+					<div class="item">
+						<p>参加2019第九届中国（芜湖）科普产品博览交易会完全由参加者自担风险，包括与受邀参加展会的分承包商或供货商所达成的任何交易。参加者必须自行安排保险。参与本次展览会组织的承办者、协办者、赞助商和任何其他人绝不对与受到战争、社会动荡、政局不稳、暴动、恐怖行为、自然灾害和其控制能力范围内或控制能力之外的任何其他事件负责。条件同样适用于非典、禽流感、甲型流感或任何其他疾病接触的感染。
+</p>
+<p class="subtitle">版权</p>
+<p>
+本网站包含的所有内容：文本、图形、logo、创意、及软件等之所有权归属第九届中国（芜湖）科普产品博览交易会及本网站的内容/信息提供者，受中国及国际版权法的保护。对本网站上所有内容的复制（意指收集、组合和重新组合），本网站享有排他权并受中国及国际版权法的保护。本网站使用的所有软件的所有权归属于第九届科博会或其它的软件供应商并受中国及国际版权法的保护。在本网站上的内容和软件可以用作信息获取网上交易的信息资源，对本网站内容的任何其他使用，包括再造、修改、发布、转发、再版、演示或播出被严格禁止。</p>
+<p class="subtitle">商标</p>
+<p>第九届科博会的图形、图片、图表、声音、创意、logo和服务名称、标识均受相关法律保护，该商标的专有名称、标识等不能在任何非属第九届科博会的产品或服务上进行容易在客户中引起混淆或歧义的使用，或以任何曲解或诋毁第九届科博会之形式使用。</p>
+
+					</div>
+					<div class="item">
+						<img src="img/about_show.png" />
+						<p class="subtitle">展会介绍</p>
+						<p>人民网北京4月9日电（汪瑞华）第九届中国（芜湖）科普产品博览交易会（以下简称科博会）新闻发布会于今天上午在北京召开。记者从会上获悉，本届科博会将于5月中下旬在安徽芜湖举办。
+据介绍，本届科博会以“创新驱动发展、科技引领未来”为主题，具体将由三项展览展示、三个专题论坛和六项专项活动三大板块构成，旨在促进科技创新与科学普及两翼齐飞、科普事业与科普产业创新发展，为提高全民科学素质提供有力支撑。
+</p>
+<p>
+截至目前，参展单位已达375家，展示面积为3.3万平方米。主要包括国内著名高校和科研院所，知名科技、科普企业和有关全国学会等单位，同时还有来自美国、法国、德国、英国、加拿大、澳大利亚、芬兰、新加坡等11个国家和香港地区的企业、科技团体。
+科普产品展示方面，本届科博会将展示我国最新的科普产品和技术，包括科技场馆展品展项，科普信息应用服务类产品，科普教育类展品，科普出版类展品，科学艺术、玩具类展品，科普网站、科普游戏类展品，科普旅游类展品以及科幻类展品等8大业态。</p>
+					</div>
+				</div>
+			</div>
+		</div>	
+<!--底部-->		
+		<div class="footer" style="margin-top:0;">
+			<p class="title">
+				<a href="javascript:;">观众管理</a>
+				<a href="javascript:;">亮点活动</a>
+				<a href="javascript:;">企业展示/品牌合作</a>
+				<a href="javascript:;">交通指南</a>
+				<a href="javascript:;">展会服务</a>
+				<a href="javascript:;">关于我们</a>
+			</p>
+			<p>Copyright 2008-2014 SUNGOAL. All Rights reserved</p>
+			<p>版权所有：h展会股份有限公司 鄂ICP备12012829号-10</p>
+		</div>
+	</div>
 	<script type="text/javascript">
 
 	$(function(){
 
-		$(".tabSpan").on("click",function(){
-			if($(this).index()==0){
-				$(".autoo").eq(0).show();
-				$("#x1 span").eq(0).addClass("detail_border")
-				$(".autoo").eq(1).hide();
-				$("#x1 span").eq(1).removeClass("detail_border")
-			}
-			if($(this).index()==1){
-				$(".autoo").eq(0).hide().removeClass("detail_border");
-				$("#x1 span").eq(0).removeClass("detail_border")
-				$(".autoo").eq(1).show().addClass("detail_border");
-				$("#x1 span").eq(1).addClass("detail_border")
-			}
+		
+
+	var	browser=browserRedirect();
+	if(browser=="phone"){
+		$(".pcBox").hide();
+		$(".phoneBox").show();
+		$(".nav span").click(function(){
+			$(this).addClass("active").siblings().removeClass("active")
 		})
+		//首页轮播
+	   var ww = $(window).width();
+       $('.head_img').bxSlider({ 
+        slideWidth: ww, 
+		adaptiveHeight: true,
+		startSlides: 0, 
+        slideMargin: 0,
+        auto: true,
+        pager: false 
+      });         
+	  //轮播效果
+      $('.slider_box').bxSlider({
+        slideWidth: 300, 
+		auto: true,
+	 		displaySlideQty:3,//显示li的个数
+   		 moveSlideQty: 3,//移动li的个数  
+        minSlides: 3,
+        maxSlides: 3,
+        slideMargin: 5,
+         controls: false
+      });	
+	//关于我们切换
+		$(".about_mark").find("span").each(function(index){
+			$(this).click(function(){
+				$(this).addClass("active").siblings().removeClass("active")
+				$(".about_show").find(".item").eq(index).show().siblings().hide();
+			})
+		})
+	}else{
+			$(".pcBox").show();
+			$(".phoneBox").hide();
+			$(".tabSpan").on("click",function(){
+				if($(this).index()==0){
+					$(".autoo").eq(0).show();
+					$("#x1 span").eq(0).addClass("detail_border")
+					$(".autoo").eq(1).hide();
+					$("#x1 span").eq(1).removeClass("detail_border")
+				}
+				if($(this).index()==1){
+					$(".autoo").eq(0).hide().removeClass("detail_border");
+					$("#x1 span").eq(0).removeClass("detail_border")
+					$(".autoo").eq(1).show().addClass("detail_border");
+					$("#x1 span").eq(1).addClass("detail_border")
+				}
+			})
 
-		$('#demo01').flexslider({
+			$(".cxfs input").on("click",function(){
+				$(".cxfs input").each(function(){
+					$(this).removeClass("colors")
+				})
+				$(this).addClass("colors")
+			})
 
-			animation: "slide",
+			$(".sf input").on("click",function(){
+				$(".sf input").each(function(){
+					$(this).removeClass("colors")
+				})
+				$(this).addClass("colors")
+			})
 
-			direction:"horizontal",
+			$('#demo01').flexslider({
 
-			easing:"swing"
+				animation: "slide",
 
-		});
+				direction:"horizontal",
 
+				easing:"swing"
+
+			});
+		}
 	});
 
 	</script>

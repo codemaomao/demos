@@ -14,3 +14,14 @@ a,img{border:0;}
 .flex-control-nav li{margin:0 5px;display:inline-block;zoom:1;*display:inline;}
 .flex-control-paging li a{background:url(../img/dot1.png) no-repeat 0 -16px;display:block;height:16px;overflow:hidden;text-indent:-99em;width:16px;cursor:pointer;}
 .flex-control-paging li a.flex-active{background-position:0 0;}
+.slides li img{width:100%;}
+.colors{border:1px solid #459DF5!important;color:#459DF5!important;}
+a{
+	text-decoration: none;
+}
+a:hover{
+	cursor: pointer;
+}
+.clear{
+	clear: both;
+}
